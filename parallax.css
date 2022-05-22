@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 12px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* ----- ----- HEADER ----- ----- */
+
+header {
+	width: 100%;
+	background: #281a0c;
+}
+
+header .contenedor {
+	position: relative;
+	height: 100px;
+}
+
+
+header .textos {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+
+header .textos .nombre {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+header .textos .nombre span {
+	font-weight: 300;
+}
+
+header .textos h3 {
+	font-weight: 200;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+/* ----- ----- MAIN ----- ----- */
+.main .texto {
+    color:brown;
+//    top: 0%;
+//	margin-top: 0px;
+	font-weight: 200;
+	font-size: 20px;
+	font-style: italic;
+	padding: 20px;
+	width: 80%;
+//	position: relative;
+	float: center;
+}
+
+.main .acerca-de .contenedor {
+	overflow: visible;
+	position: relative;
+}
+
+.main .acerca-de article {
+	background: #fff;
+	padding: 40px;
+	width: 50%;
+	position: relative;
+	float: right;
+	/*top: 30px;*/
+	top: 500px; /*Con Parallax*/
+	z-index: 1;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+}
+
+.main .acerca-de article h3 {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .acerca-de article p {
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+	background: #000;
+}
+
+footer .copyright {
+	text-align: center;
+	padding: 15px 0;
+	color: #fff;
+}
+
